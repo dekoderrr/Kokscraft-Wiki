@@ -19,14 +19,14 @@ Jak zarabiać? Jakie są formy zatrudnienia? Odpowiedzi na wszystkie pytania zna
 Na trybie mozesz wybrac kilka form dorobku poprzez pracę, kazda z nich ma poziomy i zakresy 
 
 
-
 |   DRWAL   |    GÓRNIK     |   PODRÓZNIK   |    FARMER     |     ŁOWCA     |
 |:---------:|:-------------:|:-------------:|:-------------:|:-------------:|
 | ![Drwal](/assets/survival-dzialki/praca-drwal.png) |![GÓRNIK](/assets/survival-dzialki/praca-gornik.png) |![PODROZNIK](/assets/survival-dzialki/praca-podroznik.png) |  ![FARMER](/assets/survival-dzialki/praca-farmer.png) | ![LOWCA](/assets/survival-dzialki/praca-lowca.png) |   
+| ![Drwal-formy](/assets/survival-dzialki/formy-drwal.png) |![GÓRNIK-formy](/assets/survival-dzialki/formy-gornik.png) |![PODROZNIK-formy](/assets/survival-dzialki/formy-podroznik.png) |  ![FARMER-formy](/assets/survival-dzialki/formy-farmer.png) | ![LOWCA-formy](/assets/survival-dzialki/formy-lowca.png) |
 
 
 ### BORDERY ŚWIATÓW
-do uzupelnienia
+Bordery światów są zwiększane co jakiś czas!
 
 |   ŚWIAT   |    BORDER     |
 |:---------:|:-------------:|
