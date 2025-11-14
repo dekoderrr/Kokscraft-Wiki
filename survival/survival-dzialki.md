@@ -1,7 +1,7 @@
 # Survival + Działki
 ### Połączenie klasycznego trybu survival z licznymi ułatwieniami. 
 
-## IN PROGRESS
+### IN PROGRESS
 
 
 
@@ -10,11 +10,12 @@
 ## Jak zacząć?
 Jak na klasycznym survivalu 1.21.8+! Zbieraj surowce, zarób pieniądze i kup pierwszą działkę!
 Wybierz swoją pracę, handluj z graczami, znajdź drugą połówkę - bądź milionerem. 
-Losowy teleport pomoże Ci znaleźć idealny teren.
 
+Losowy teleport pomoże Ci znaleźć idealny teren pod bazę!
 
+![jak-zaczac](/assets/survival-dzialki/jak-zaczac.png)
 
-### Praca - formy zatrudnienia na survivalu
+## Praca - formy zatrudnienia na survivalu
 Jak zarabiać? Jakie są formy zatrudnienia? Odpowiedzi na wszystkie pytania znajdziesz ponizej :D
 Na trybie mozesz wybrac kilka form dorobku poprzez pracę, kazda z nich ma poziomy i zakresy 
 
@@ -25,14 +26,14 @@ Na trybie mozesz wybrac kilka form dorobku poprzez pracę, kazda z nich ma pozio
 | ![Drwal-formy](/assets/survival-dzialki/formy-drwal.png) |![GÓRNIK-formy](/assets/survival-dzialki/formy-gornik.png) |![PODROZNIK-formy](/assets/survival-dzialki/formy-podroznik.png) |  ![FARMER-formy](/assets/survival-dzialki/formy-farmer.png) | ![LOWCA-formy](/assets/survival-dzialki/formy-lowca.png) |
 
 
-### BORDERY ŚWIATÓW
+### [emerald/]BORDERY ŚWIATÓW[/emerald]
 Bordery światów są zwiększane co jakiś czas!
 
 |   ŚWIAT   |    BORDER     |
 |:---------:|:-------------:|
-| OVERWORLD | .....         |
-|  NETHER   | ......        |
-|    END    | .....         |   
+| OVERWORLD | 7500 x 7500      |
+|  NETHER   |  wkrótce!        |
+|    END    | wkrótce!         |   
 
 ## Działka i jej zarządzanie
 bla bla bla
@@ -41,25 +42,10 @@ tutaj lista i opis jakie dzialki i limit dla rang
 
 
 Lista komend
-/dzialka dom - teleportuje na działkę, koordynaty teleportu mozna zmieniac!
-/dzialka info - informacje o dzialce, na ktorej stoisz (nazwa, kordy, wlasciciel)
-/dzialka kup - otwiera GUI z możliwością zakupu bloku działki (kilka różnych wariantów)
-/dzialka menu - otwiera panel ustawień działki na której stoisz (jeśli jesteś poza, to najpierw otwiera gui z listą działek do wyboru)
-
-/dzialka wlasciciel <nick> - przekazujesz wlasciciela dzialki innemu graczowi 
-/dzialka zastepca <nick> - nadanie/zdjęcie roli ‘zastepcy’ na dzialce - max 2 zastepców per działka
-/dzialka usun - usuwasz swoją działkę ((GUI z potwierdzeniem)
-/dzialka zapros <nick> - zaproszenie gracza do dzialki
-/dzialka wyrzuc <nick> - wyrzucenie gracza z dzialki
-/dzialka opusc - opuszczenie działki
-/dzialka wykop <nick> - wyrzucenie gracza z terenu działki
-/dzialka zablokuj <nick> - zablokowania gracza na terenie działki (nie może wejść na jej teren)
-/dzialka odblokuj <nick> - odblokowanie gracza
-/dzialka ustawdom - ustawia dom działki na kordy, na których stoisz.
-/dzialka dom <nazwa> - teleport na dom działki (wyświetla listę Twoich działek do tabowania)
-/dzialka zaproszenia - lista zaproszeń do działek
-/dzialka lista - lista Twoich działek lub do których masz dostep (Nazwa działki, kordy, Twoja rola na dzialce) + LPM teleport na dzialke
-/dzialka pvp - włączenie/wyłączenie pvp na działce (Dostęp tylko dla administracji MOD/SMOD+  na jakieś eventy)
+- **[emerald/]/dzialka dom[/emerald]** - teleportuje na działkę, koordynaty teleportu mozna zmieniac!
+- **[emerald/]/dzialka info[/emerald]** - informacje o dzialce, na ktorej stoisz (nazwa, kordy, wlasciciel)
+- **[emerald/]/dzialka kup[/emerald]** - otwiera GUI z możliwością zakupu bloku działki (kilka różnych wariantów)
+- **[emerald/]/dzialka menu[/emerald]** - otwiera panel ustawień działki na której stoisz (jeśli jesteś poza, to najpierw otwiera gui z listą działek do wyboru)
 
 ### Uprawnienia w panelu działki pozwalają na kontrolowanie:
 GUI panelu działek
@@ -69,22 +55,33 @@ Gdy stoisz na działce otwiera ustawienia danej działki, w innym wypadku
 Permisje działki (w srodku “GUI permisji”)
 -Lista członków (lista członkow, nicki, role) - limit osób na działce ustawiany jako permisja w rangach
 -Lista zablokowanych graczy (lista osób zablokowanych - nick + data blokady)
--Ukrywanie bloku działki (Kliknij aby ukryć/pokazać blok działki) - zabezpieczyć też, aby nie dało się przesuwać bloku pistonem, wybuchać itd
 -Zmień nazwę działki (otwiera tabliczkę w której możesz wpisać nową nazwę) - raz na 24h na działce
--Zmień ikonę działki (otwiera GUI w którym musisz wsadzić item, aby zmienić na daną ikonkę)
--Widoczność granic działki (wykonuje komende /dzialka granica)
+
 -Informacje o działce (nazwa, wlasciciel, zastepcy, kordy, rozmiar, data stworzenia, data wygasniecia, liczba czlonkow / max czlonkow)
 -Kup działkę (wykonuje komende /dzialka kup)
 -Opłać działkę (Koszt x $, kliknij aby oplacic + arg. z aktualnym czasem do wygasniecia)
 -Usuń działkę - Dodać do itemu zapisywanie czasu, na który działka była przedłużona
-
+|   FUNKCJA W GUI   |    CO ROBI?     |
+|:---------:|:-------------:|
+| ![SS-INFO](/assets/survival-dzialki/info_dzialka.png)|        |
+|  ![SS-DOM](/assets/survival-dzialki/dom_dzialka.png) |        |
+|  ![SS-TO](/assets/survival-dzialki/tp_dzialka.png) |        |
+|  ![SS-GRACZE](/assets/survival-dzialki/gracze_dzialka.png) |        |
+|  ![SS-ZABLOKOWANI](/assets/survival-dzialki/zablokowani_dzialka.png) |        |
+|  ![SS-USTAWIENIA](/assets/survival-dzialki/ustawienia_dzialka.png) |        |
+|  ![SS-NAZWA](/assets/survival-dzialki/nazwa_dzialka.png) |        |
+|  ![SS-PRZEDLUZ](/assets/survival-dzialki/przedluz_dzialka.png) |        |
+|  ![SS-ODWIEDZANIE](/assets/survival-dzialki/odwiedzanie_dzialka.png) |        |
+|  ![SS-GOSCIE](/assets/survival-dzialki/ustawieniagosci_dzialka.png) |        |
+|  ![SS-ZABLOKOWANI](/assets/survival-dzialki/zablokowani_dzialka.png) |        |
+|    ss     |               |
 
 
 ss menu zarzadzania dzialka
 opis uprawnien
 
 ### Przydatne dodatkowe komendy:
-bla bla bla
+
 
 ![RTP](/assets/survival-dzialki/rtp.png)
 
