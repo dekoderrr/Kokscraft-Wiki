@@ -40,12 +40,12 @@ Survival PLUS DZIAŁKI! Za opłatą $$$ mozesz kupić działkę - rezerwację te
 
 ### Jakie są rodzaje działek?
 |                        **RODZAJ DZIAŁKI**                         | **OPIS DZIAŁKI**|
-|:------------------------------------------------------:|:------------------------------------------------------:|
-| ![mała](/assets/survival-dzialki/mala_icon.png) |[mala_opis](/assets/survival-dzialki/mala_dzialka.png)|
-|    ![średnia]](/assets/survival-dzialki/srednia_icon.png)|[srednia_opis](/assets/survival-dzialki/srednia_dzialka.png)|
-|   ![duza](/assets/survival-dzialki/duza_icon.png)   |[duza_opis](/assets/survival-dzialki/duza_dzialka.png)|
-|   ![bardzo_duza](/assets/survival-dzialki/bardzoduza_icon.png)   |[bardzoduza_opis](/assets/survival-dzialki/bardzoduza_dzialka.png)|
-|   ![ogromna](/assets/survival-dzialki/ogromna_icon.png)   |[srednia_opis](/assets/survival-dzialki/ogromna_dzialka.png)|
+|:-----------------------------------------------------------:|:------------------------------------------------------:|
+| ![mała](/assets/survival-dzialki/mala_icon.png)             |![mala_opis](/assets/survival-dzialki/mala_dzialka.png)|
+| ![średnia](/assets/survival-dzialki/srednia_icon.png)       |![srednia_opis](/assets/survival-dzialki/srednia_dzialka.png)|
+| ![duza](/assets/survival-dzialki/duza_icon.png)             |![duza_opis](/assets/survival-dzialki/duza_dzialka.png)|
+| ![bardzo_duza](/assets/survival-dzialki/bardzoduza_icon.png)|![bardzoduza_opis](/assets/survival-dzialki/bardzoduza_dzialka.png)|
+| ![ogromna](/assets/survival-dzialki/ogromna_icon.png)       |![srednia_opis](/assets/survival-dzialki/ogromna_dzialka.png)|
 
 Lista komend
 - **[emerald/]/dzialka dom[/emerald]** - teleportuje na działkę, koordynaty teleportu mozna zmieniac!
