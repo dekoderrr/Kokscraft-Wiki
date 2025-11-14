@@ -36,7 +36,7 @@ Bordery światów są zwiększane co jakiś czas!
 |    END    | wkrótce!         |   
 
 ## Działka i jej zarządzanie
-bla bla bla
+bla bla bla opis
 
 tutaj lista i opis jakie dzialki i limit dla rang
 
@@ -63,17 +63,17 @@ Permisje działki (w srodku “GUI permisji”)
 -Usuń działkę - Dodać do itemu zapisywanie czasu, na który działka była przedłużona
 |   FUNKCJA W GUI   |    CO ROBI?     |
 |:---------:|:-------------:|
-| ![SS-INFO](/assets/survival-dzialki/info_dzialka.png)|        |
-|  ![SS-DOM](/assets/survival-dzialki/dom_dzialka.png) |        |
-|  ![SS-TO](/assets/survival-dzialki/tp_dzialka.png) |        |
-|  ![SS-GRACZE](/assets/survival-dzialki/gracze_dzialka.png) |        |
-|  ![SS-ZABLOKOWANI](/assets/survival-dzialki/zablokowani_dzialka.png) |        |
-|  ![SS-USTAWIENIA](/assets/survival-dzialki/ustawienia_dzialka.png) |        |
-|  ![SS-NAZWA](/assets/survival-dzialki/nazwa_dzialka.png) |        |
-|  ![SS-PRZEDLUZ](/assets/survival-dzialki/przedluz_dzialka.png) |        |
-|  ![SS-ODWIEDZANIE](/assets/survival-dzialki/odwiedzanie_dzialka.png) |        |
-|  ![SS-GOSCIE](/assets/survival-dzialki/ustawieniagosci_dzialka.png) |        |
-|  ![SS-ZABLOKOWANI](/assets/survival-dzialki/zablokowani_dzialka.png) |        |
+| ![SS-INFO](/assets/survival-dzialki/ss-info.png)| ![SS-INFO](/assets/survival-dzialki/informacje_dzialka.png)       |
+|  ![SS-DOM](/assets/survival-dzialki/ss-dom.png) | ![SS-DOM](/assets/survival-dzialki/dom_dzialka.png)       |
+|  ![SS-TO](/assets/survival-dzialki/ss-tp.png) |![SS-TO](/assets/survival-dzialki/tp_dzialka.png)        |
+|  ![SS-GRACZE](/assets/survival-dzialki/ss-gracze.png) | ![SS-GRACZE](/assets/survival-dzialki/gracze_dzialka.png)       |
+|  ![SS-ZABLOKOWANI](/assets/survival-dzialki/ss-zablokowani.png) |![SS-ZABLOKOWANI](/assets/survival-dzialki/zablokowani_dzialka.png)        |
+|  ![SS-USTAWIENIA](/assets/survival-dzialki/ss-ustawienia_dzialki.png) |![SS-USTAWIENIA](/assets/survival-dzialki/ustawienia_dzialka.png)        |
+|  ![SS-NAZWA](/assets/survival-dzialki/ss-nazwa.png) |![SS-NAZWA](/assets/survival-dzialki/nazwa_dzialka.png)        |
+|  ![SS-PRZEDLUZ](/assets/survival-dzialki/ss-przedluz.png) | ![SS-PRZEDLUZ](/assets/survival-dzialki/przedluz_dzialka.png)       |
+|  ![SS-ODWIEDZANIE](/assets/survival-dzialki/ss-odwiedzanie.png) |![SS-ODWIEDZANIE](/assets/survival-dzialki/odwiedzanie_dzialka.png)        |
+|  ![SS-GOSCIE](/assets/survival-dzialki/ss-ustawienia_gosci.png) |![SS-GOSCIE](/assets/survival-dzialki/ustawieniagosci_dzialka.png)        |
+|  ![SS-ZABLOKOWANI](/assets/survival-dzialki/ss-zablokowani.png) |![SS-ZABLOKOWANI](/assets/survival-dzialki/zablokowani_dzialka.png)        |
 |    ss     |               |
 
 
@@ -82,29 +82,55 @@ opis uprawnien
 
 ### Przydatne dodatkowe komendy:
 
+- **[orange/]/pomoc[/orange]** - wyświetla GUI z przydatnymi informacjami o trybie oraz listę uzytecznych komend
+- **[orange/]/ustawienia[/orange]** - otwiera GUI z ustawieniami konta
+- **[orange/]/ignore nick[/orange]** - mozliwosc zignorowania gracza
+- **[orange/]/warp[/orange]** - wyświetla GUI z dostępnymi warpami
+
+- **[yellow/]/rangi[/yellow]** - wyświetla GUI z opisem rang premium
+- **[yellow/]/prestiz[/yellow]** - wyświetla GUI systemu prestizu
+- **[yellow/]/kosz[/yellow]** - skutecznie pozbądź się niepotrzebnych itemów
+- **[yellow/]/rangi[/yellow]** - 
+- **[yellow/]/rangi[/yellow]** - 
+- **[yellow/]/rangi[/yellow]** - 
 
 ![RTP](/assets/survival-dzialki/rtp.png)
 
 
 ## Handel i Ekonomia
 Rynek na serwerze rządzi się swoimi prawami -  to gracze ustalają ceny przedmiotów i to od nich w dużej mierze zależy jak wygląda rynek!
-Serwer umożliwia handel na kilka sposobów: wewnętrzny sklep, market, wymiany bezpośrednie między graczami i przelewanie sobie pieniędzy.
+Serwer umożliwia handel na kilka sposobów: wewnętrzny sklep, market, wymiany bezpośrednie między graczami oraz przelewanie sobie pieniędzy.
 
-INFO O PODATKU DAĆ
+### Pssst... na serwerze obowiązuje podatek [red/]5%[/red]!
+[orange/]Podatek obejmuje płatności poprzez /pay oraz czeki![/orange]
 
-• **/market gui** - otwiera menu serwerowego rynku
-• **/market wystaw <cena>** - wystaw przedmiot na rynek za określoną cenę na okres 24h (UWAGA! Wystawisz wszystkie przedmioty które masz aktualnie w ręce)
-• **/market wyplac** - wypłać zaległe oferty, które wygasły
-• **/wymiana <nick>** - jeśli chcesz wykonać wymianę "coś za coś" użyj tej komendy aby uniknąć oszustwa
-A i jeszcze jedno! Jeśli masz znajomego w potrzebie przelej mu trochę pieniędzy używając komendy **/przelej <nick> <ilosc>** bądź **/pay <nick> <ilosc>**
+### Komendy związane z ekonomią serwera:
+- ** [sky/]/market otworz[/sky]** - otwiera menu serwerowego rynku
+- **[sky/]/market wystaw cena[/sky]** - wystaw przedmiot na rynek za określoną cenę na 24 godziny! 
+- **[sky/]/market dostawy[/sky]** - schowek kupionych, wylicytowanych oraz wygaśniętych ofert!
+- **[/sky]/wymiana nick[/sky]** - jeśli chcesz wykonać wymianę "coś za coś" użyj tej komendy aby uniknąć oszustwa
+- **[sky/]/czek kwota[/sky]** - tworzy czek pienięzny
+- **[sky/]/aukcja wystaw kwota[/sky]** - tworzy krótką licytację ogłaszaną na czacie, dobry sposób na szybką sprzedaz przedmiotu! 
+- **[sky/]/aukcja licytuj kwota[/sky]** - podbija cenę licytowanego przedmiotu, w ten sposób wywalczysz swój upragniony przedmiot
+
+
+A i jeszcze jedno! Jeśli masz znajomego w potrzebie przelej mu trochę pieniędzy używając komendy **[green/]/pay nick kwota[/green]**
 
 ![market](/assets/survival-dzialki/market.png)
 
 ## Małzeństwa wśród graczy
-bla bla bla
+Na serwerze istnieje mozliwosc zawarcia związku małzeńskiego między dwoma graczami! 
+Opcja ta daje liczne korzyści jak i uprawnienia ¬ ‿¬
+
+- **[pink/]/slub info[/pink]** - wyświetla informację o Twoim ślubie!
+- **[pink/]/slub invite nick[/pink]** - wysyła zaproszenie graczowi do ślubu
+- **[pink/]/slub rozwod[/pink]** - bierze natychmiastowo rozwód z drugim graczem
+- **[pink/]/slub list[/pink]** - wyświetla GUI z listą aktywnych małzenstw
+
+### UWAGA! Po wzięciu rozwodu musisz odczekać 24h zanim znowu weźmiesz ślub!
 
 ## Rangi i Skrzynie
- [SKLEP KOKSCRAFT](https://kokscraft.pl/sklep/rangi/sv-1-20_1)
+ [SKLEP KOKSCRAFT](https://kokscraft.pl/sklep/dzialki)
 
 Każda ranga posiada inne dodatkowe przywileje, sprawdzisz je komendą /rangi.
 Tak samo z ich zestawami - /kit, prawym przyciskiem myszy podejrzysz zawartość *każdego* zestawu!
@@ -115,6 +141,7 @@ Tak samo z ich zestawami - /kit, prawym przyciskiem myszy podejrzysz zawartość
 |    ![kit-vip](/assets/survival-dzialki/kit-vip.png)    |
 |   ![kit-svip](/assets/survival-dzialki/kit-svip.png)   |
 |   ![kit-mvip](/assets/survival-dzialki/kit-mvip.png)   |
+|   ![kit-koks](/assets/survival-dzialki/kit-koks.png)   |
 
 
 ### Na stronie można również kupić **klucze do skrzyń!** Co to za skrzynie?
