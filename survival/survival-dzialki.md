@@ -26,19 +26,25 @@ Na trybie mozesz wybrac kilka form dorobku poprzez pracę, kazda z nich ma pozio
 | ![Drwal-formy](/assets/survival-dzialki/formy-drwal.png) |![GÓRNIK-formy](/assets/survival-dzialki/formy-gornik.png) |![PODROZNIK-formy](/assets/survival-dzialki/formy-podroznik.png) |  ![FARMER-formy](/assets/survival-dzialki/formy-farmer.png) | ![LOWCA-formy](/assets/survival-dzialki/formy-lowca.png) |
 
 
-### [emerald/]BORDERY ŚWIATÓW[/emerald]
+## BORDERY ŚWIATÓW
 Bordery światów są zwiększane co jakiś czas!
 
-|   ŚWIAT   |    BORDER     |
+|   **ŚWIAT**   |    **BORDER**     |
 |:---------:|:-------------:|
 | OVERWORLD | 7500 x 7500      |
 |  NETHER   |  wkrótce!        |
 |    END    | wkrótce!         |   
 
 ## Działka i jej zarządzanie
-Survival PLUS DZIAŁKI! Za opłatą $$$ mozesz kupić działkę - rezerwację terenu tylko dla siebie (no chyba, ze dodasz swoich sojusznikow)!
+**[amber/]Survival PLUS DZIAŁKI! Za opłatą $$$ mozesz kupić działkę - rezerwację terenu tylko dla siebie (no chyba, ze dodasz swoich sojusznikow)![/amber]**
 
-### Jakie są rodzaje działek?
+## Lista komend
+- **[emerald/]/dzialka dom[/emerald]** - teleportuje na działkę, koordynaty teleportu mozna zmieniac!
+- **[emerald/]/dzialka info[/emerald]** - informacje o dzialce, na ktorej stoisz (nazwa, kordy, wlasciciel)
+- **[emerald/]/dzialka kup[/emerald]** - otwiera GUI z możliwością zakupu bloku działki (kilka różnych wariantów)
+- **[emerald/]/dzialka menu[/emerald]** - otwiera panel ustawień działki na której stoisz (jeśli jesteś poza, to najpierw otwiera gui z listą działek do wyboru)
+
+## Jakie są rodzaje działek?
 |                        **RODZAJ DZIAŁKI**                         | **OPIS DZIAŁKI**|
 |:-----------------------------------------------------------:|:------------------------------------------------------:|
 | ![mała](/assets/survival-dzialki/mala_icon.png)             |![mala_opis](/assets/survival-dzialki/mala_dzialka.png)|
@@ -47,11 +53,7 @@ Survival PLUS DZIAŁKI! Za opłatą $$$ mozesz kupić działkę - rezerwację te
 | ![bardzo_duza](/assets/survival-dzialki/bardzoduza_icon.png)|![bardzoduza_opis](/assets/survival-dzialki/bardzoduza_dzialka.png)|
 | ![ogromna](/assets/survival-dzialki/ogromna_icon.png)       |![srednia_opis](/assets/survival-dzialki/ogromna_dzialka.png)|
 
-Lista komend
-- **[emerald/]/dzialka dom[/emerald]** - teleportuje na działkę, koordynaty teleportu mozna zmieniac!
-- **[emerald/]/dzialka info[/emerald]** - informacje o dzialce, na ktorej stoisz (nazwa, kordy, wlasciciel)
-- **[emerald/]/dzialka kup[/emerald]** - otwiera GUI z możliwością zakupu bloku działki (kilka różnych wariantów)
-- **[emerald/]/dzialka menu[/emerald]** - otwiera panel ustawień działki na której stoisz (jeśli jesteś poza, to najpierw otwiera gui z listą działek do wyboru)
+
 
 ### Uprawnienia w panelu działki pozwalają na kontrolowanie:
 
@@ -84,10 +86,6 @@ Lista komend
 - **[yellow/]/rangi[/yellow]** - wyświetla GUI z opisem rang premium
 - **[yellow/]/prestiz[/yellow]** - wyświetla GUI systemu prestizu
 - **[yellow/]/kosz[/yellow]** - skutecznie pozbądź się niepotrzebnych itemów
-- **[yellow/]/rangi[/yellow]** - 
-- **[yellow/]/rangi[/yellow]** - 
-- **[yellow/]/rangi[/yellow]** - 
-
 
 
 ## Handel i Ekonomia
@@ -134,32 +132,31 @@ Opcja ta daje liczne korzyści jak i uprawnienia ¬ ‿¬
 Każda ranga posiada inne dodatkowe przywileje, sprawdzisz je komendą /rangi.
 Tak samo z ich zestawami - /kit, klikając na odpowiednie ikony podejrzysz zawartość *każdego* zestawu!
 
-<!-->
+
 |                        ZESTAWY                         |
 |:------------------------------------------------------:|
 | ![kit-player](/assets/survival-dzialki/kit-player.png) |
-|    ![kit-vip](/assets/survival-dzialki/kit-vip.png)    |
-|   ![kit-svip](/assets/survival-dzialki/kit-svip.png)   |
-|   ![kit-mvip](/assets/survival-dzialki/kit-mvip.png)   |
-|   ![kit-koks](/assets/survival-dzialki/kit-koks.png)   |
-<!-->
+|  **VIP** - DOSTĘPNY OD 15.11 12:00  |
+|  **SVIP** - DOSTĘPNY OD 15.11 12:00  |
+|  **MVIP** - DOSTĘPNY OD 15.11 12:00  |
+|  **KOKS** - DOSTĘPNY OD 15.11 12:00  |
 
 ### Na stronie można również kupić **klucze do skrzyń!** Co to za skrzynie?
-![chests](/assets/survival-dzialki/chests.png)
 
-|                        CO DROPIĄ?                        |
-|:--------------------------------------------------------:|
-| ![magic-chest](/assets/survival-dzialki/magic-chest.png) |
-|   ![kox-chest](/assets/survival-dzialki/kox-chest.png)   |
+
+|                        CO DROPIĄ?                           |
+|:-----------------------------------------------------------:|
+| **[lime/]MAGICZNA SKRZYNIA[/lime]** - dostępna od 15.11     |
+| **[yellow/]KOKS SKRZYNIA[/yellow]** - dostępna od 15.11     |
+| **[amber/]SZCZĘŚLIWA SKRZYNIA[/amber]** - dostępna od 15.11 |
+| **[red/]SKRZYNIA SPAWNERÓW[/red]** - dostępna od 15.11      |
 
 
 ## Topki <
 Na serwerze obowiązuje zacięta rywalizacja, najlepsze osoby otrzymują nagrody na nową edycję!
 Podczas gry możecie rywalizować między sobą w aż ....... kategoriach!
 
-![Topki](/assets/survival-dzialki/top-list.png)
 
-rozpisac topki
 
 #### **To co? Umówieni na wspólne wbijanie topek?**
 
@@ -169,21 +166,16 @@ Aby zapewnić graczom dodatkową rozrywkę oraz wprowadzić troszkę więcej ryw
 Event rozpocznie się jeśli na serwerze będzie łącznie **30 graczy**.
 W wydarzeniach opłaca się brać regularny udział, ponieważ pierwsze trzy osoby na koniec zostaną nagrodzone!
 
-wypisac eventy
-
-wypisac nagrody
-
-
 
 ## Spawn
 ### Wszystko pięknie opisane a co ze spawnem? Zaczynasz tu swoją przygodę a nawet wzmianki o nim nie ma...
 
-![spawn-opis](/assets/survival-dzialki/spawn-desc.png)
-
 Znajdziesz tu **WSZYSTKIE** potrzebne Ci rzeczy! 
-• Losowy teleport
-• Bordery map
-• Portal do ...Endu!
+- Losowy teleport
+- Bordery map
+- Portal do ...Endu! 
+- Aktualnie najlepszych graczy, czyli Topki!
+
 
 Mimo, że spawn oferuje bezpieczne do odetchnięcia miejsce - to poza nim gracze walczą między sobą. 
 LINIA PVP!
