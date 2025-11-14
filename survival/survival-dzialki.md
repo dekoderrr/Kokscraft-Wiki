@@ -3,12 +3,27 @@
 
 ## IN PROGRESS
 
-<!--represja>
+
 
 ![Spawn](/assets/survival-dzialki/survival-spawn.png)
 
 ## Jak zacząć?
-bla bla bla
+Jak na klasycznym survivalu 1.21.8+! Zbieraj surowce, zarób pieniądze i kup pierwszą działkę!
+Wybierz swoją pracę, handluj z graczami, znajdź drugą połówkę - bądź milionerem. 
+Losowy teleport pomoże Ci znaleźć idealny teren.
+
+
+
+### Praca - formy zatrudnienia na survivalu
+Jak zarabiać? Jakie są formy zatrudnienia? Odpowiedzi na wszystkie pytania znajdziesz ponizej :D
+Na trybie mozesz wybrac kilka form dorobku poprzez pracę, kazda z nich ma poziomy i zakresy 
+
+
+
+|   DRWAL   |    GÓRNIK     |   PODRÓZNIK   |    FARMER     |     ŁOWCA     |
+|:---------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| ![Drwal](/assets/survival-dzialki/praca-drwal.png) |![GÓRNIK](/assets/survival-dzialki/praca-gornik.png) |![PODROZNIK](/assets/survival-dzialki/praca-podroznik.png) |  ![FARMER](/assets/survival-dzialki/praca-farmer.png) | ![LOWCA](/assets/survival-dzialki/praca-lowca.png) |   
+
 
 ### BORDERY ŚWIATÓW
 do uzupelnienia
@@ -148,6 +163,6 @@ Znajdziesz tu **WSZYSTKIE** potrzebne Ci rzeczy!
 
 Mimo, że spawn oferuje bezpieczne do odetchnięcia miejsce - to poza nim gracze walczą między sobą. 
 LINIA PVP!
-![pvp](/assets/survival-dzialki/pvp.png)
 
-<!-->
+
+<!--Represja>
