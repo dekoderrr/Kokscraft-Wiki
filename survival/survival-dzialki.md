@@ -36,10 +36,16 @@ Bordery światów są zwiększane co jakiś czas!
 |    END    | wkrótce!         |   
 
 ## Działka i jej zarządzanie
-bla bla bla opis
+Survival PLUS DZIAŁKI! Za opłatą $$$ mozesz kupić działkę - rezerwację terenu tylko dla siebie (no chyba, ze dodasz swoich sojusznikow)!
 
-tutaj lista i opis jakie dzialki i limit dla rang
-
+### Jakie są rodzaje działek?
+|                        **RODZAJ DZIAŁKI**                         | **OPIS DZIAŁKI**|
+|:------------------------------------------------------:|:------------------------------------------------------:|
+| ![mała](/assets/survival-dzialki/mala_icon.png) |[mala_opis](/assets/survival-dzialki/mala_dzialka.png)|
+|    ![średnia]](/assets/survival-dzialki/srednia_icon.png)|[srednia_opis](/assets/survival-dzialki/srednia_dzialka.png)|
+|   ![duza](/assets/survival-dzialki/duza_icon.png)   |[duza_opis](/assets/survival-dzialki/duza_dzialka.png)|
+|   ![bardzo_duza](/assets/survival-dzialki/bardzoduza_icon.png)   |[bardzoduza_opis](/assets/survival-dzialki/bardzoduza_dzialka.png)|
+|   ![ogromna](/assets/survival-dzialki/ogromna_icon.png)   |[srednia_opis](/assets/survival-dzialki/ogromna_dzialka.png)|
 
 Lista komend
 - **[emerald/]/dzialka dom[/emerald]** - teleportuje na działkę, koordynaty teleportu mozna zmieniac!
@@ -48,19 +54,8 @@ Lista komend
 - **[emerald/]/dzialka menu[/emerald]** - otwiera panel ustawień działki na której stoisz (jeśli jesteś poza, to najpierw otwiera gui z listą działek do wyboru)
 
 ### Uprawnienia w panelu działki pozwalają na kontrolowanie:
-GUI panelu działek
-Gdy stoisz na działce otwiera ustawienia danej działki, w innym wypadku
- najpierw otwiera GUI z listą działek do wyboru
 
-Permisje działki (w srodku “GUI permisji”)
--Lista członków (lista członkow, nicki, role) - limit osób na działce ustawiany jako permisja w rangach
--Lista zablokowanych graczy (lista osób zablokowanych - nick + data blokady)
--Zmień nazwę działki (otwiera tabliczkę w której możesz wpisać nową nazwę) - raz na 24h na działce
 
--Informacje o działce (nazwa, wlasciciel, zastepcy, kordy, rozmiar, data stworzenia, data wygasniecia, liczba czlonkow / max czlonkow)
--Kup działkę (wykonuje komende /dzialka kup)
--Opłać działkę (Koszt x $, kliknij aby oplacic + arg. z aktualnym czasem do wygasniecia)
--Usuń działkę - Dodać do itemu zapisywanie czasu, na który działka była przedłużona
 |   FUNKCJA W GUI   |    CO ROBI?     |
 |:---------:|:-------------:|
 | ![SS-INFO](/assets/survival-dzialki/ss-info.png)| ![SS-INFO](/assets/survival-dzialki/informacje_dzialka.png)       |
@@ -74,11 +69,10 @@ Permisje działki (w srodku “GUI permisji”)
 |  ![SS-ODWIEDZANIE](/assets/survival-dzialki/ss-odwiedzanie.png) |![SS-ODWIEDZANIE](/assets/survival-dzialki/odwiedzanie_dzialka.png)        |
 |  ![SS-GOSCIE](/assets/survival-dzialki/ss-ustawienia_gosci.png) |![SS-GOSCIE](/assets/survival-dzialki/ustawieniagosci_dzialka.png)        |
 |  ![SS-ZABLOKOWANI](/assets/survival-dzialki/ss-zablokowani.png) |![SS-ZABLOKOWANI](/assets/survival-dzialki/zablokowani_dzialka.png)        |
-|    ss     |               |
 
 
-ss menu zarzadzania dzialka
-opis uprawnien
+
+
 
 ### Przydatne dodatkowe komendy:
 
@@ -94,7 +88,6 @@ opis uprawnien
 - **[yellow/]/rangi[/yellow]** - 
 - **[yellow/]/rangi[/yellow]** - 
 
-![RTP](/assets/survival-dzialki/rtp.png)
 
 
 ## Handel i Ekonomia
@@ -103,6 +96,8 @@ Serwer umożliwia handel na kilka sposobów: wewnętrzny sklep, market, wymiany 
 
 ### Pssst... na serwerze obowiązuje podatek [red/]5%[/red]!
 [orange/]Podatek obejmuje płatności poprzez /pay oraz czeki![/orange]
+
+![CZEK](/assets/survival-dzialki/czek.png)
 
 ### Komendy związane z ekonomią serwera:
 - ** [sky/]/market otworz[/sky]** - otwiera menu serwerowego rynku
@@ -122,19 +117,24 @@ A i jeszcze jedno! Jeśli masz znajomego w potrzebie przelej mu trochę pienięd
 Na serwerze istnieje mozliwosc zawarcia związku małzeńskiego między dwoma graczami! 
 Opcja ta daje liczne korzyści jak i uprawnienia ¬ ‿¬
 
+![slub-info](/assets/survival-dzialki/slub_info.png)
+
+
 - **[pink/]/slub info[/pink]** - wyświetla informację o Twoim ślubie!
 - **[pink/]/slub invite nick[/pink]** - wysyła zaproszenie graczowi do ślubu
 - **[pink/]/slub rozwod[/pink]** - bierze natychmiastowo rozwód z drugim graczem
 - **[pink/]/slub list[/pink]** - wyświetla GUI z listą aktywnych małzenstw
 
 ### UWAGA! Po wzięciu rozwodu musisz odczekać 24h zanim znowu weźmiesz ślub!
+![rozwód](/assets/survival-dzialki/slub_rozwod.png)
 
-## Rangi i Skrzynie
- [SKLEP KOKSCRAFT](https://kokscraft.pl/sklep/dzialki)
+## Rangi i Skrzynie -> [SKLEP KOKSCRAFT](https://kokscraft.pl/sklep/dzialki)
+ 
 
 Każda ranga posiada inne dodatkowe przywileje, sprawdzisz je komendą /rangi.
-Tak samo z ich zestawami - /kit, prawym przyciskiem myszy podejrzysz zawartość *każdego* zestawu!
+Tak samo z ich zestawami - /kit, klikając na odpowiednie ikony podejrzysz zawartość *każdego* zestawu!
 
+<!-->
 |                        ZESTAWY                         |
 |:------------------------------------------------------:|
 | ![kit-player](/assets/survival-dzialki/kit-player.png) |
@@ -142,7 +142,7 @@ Tak samo z ich zestawami - /kit, prawym przyciskiem myszy podejrzysz zawartość
 |   ![kit-svip](/assets/survival-dzialki/kit-svip.png)   |
 |   ![kit-mvip](/assets/survival-dzialki/kit-mvip.png)   |
 |   ![kit-koks](/assets/survival-dzialki/kit-koks.png)   |
-
+<!-->
 
 ### Na stronie można również kupić **klucze do skrzyń!** Co to za skrzynie?
 ![chests](/assets/survival-dzialki/chests.png)
