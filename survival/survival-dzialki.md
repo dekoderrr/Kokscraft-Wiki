@@ -1,68 +1,84 @@
 # Survival + Działki
 ### Połączenie klasycznego trybu survival z licznymi ułatwieniami. 
+
+## IN PROGRESS
+
+<!--represja>
+
 ![Spawn](/assets/survival-dzialki/survival-spawn.png)
 
 ## Jak zacząć?
-Jak na klasycznym survivalu 1.20+! Zbieraj surowce, zarób pierwsze 500$ i stwórz swoją działkę! 
-Losowy teleport pomoże Ci znaleźć *idealny* teren.
-Pamiętaj o ustawieniu /home, inaczej do działki dotrzesz tylko na pieszo.
-Ważna jest frekwencja - Twoja działka ma ważność TYLKO 14 dni! Po każdym logowaniu czas się odnawia.
+bla bla bla
 
 ### BORDERY ŚWIATÓW
-
+do uzupelnienia
 
 |   ŚWIAT   |    BORDER     |
 |:---------:|:-------------:|
-| OVERWORLD | 20000 x 20000 |
-|  NETHER   | 10000 x 10000 |
-|    END    | 15000 x 15000 |   
+| OVERWORLD | .....         |
+|  NETHER   | ......        |
+|    END    | .....         |   
+
+## Działka i jej zarządzanie
+bla bla bla
+
+tutaj lista i opis jakie dzialki i limit dla rang
+
+
+Lista komend
+/dzialka dom - teleportuje na działkę, koordynaty teleportu mozna zmieniac!
+/dzialka info - informacje o dzialce, na ktorej stoisz (nazwa, kordy, wlasciciel)
+/dzialka kup - otwiera GUI z możliwością zakupu bloku działki (kilka różnych wariantów)
+/dzialka menu - otwiera panel ustawień działki na której stoisz (jeśli jesteś poza, to najpierw otwiera gui z listą działek do wyboru)
+
+/dzialka wlasciciel <nick> - przekazujesz wlasciciela dzialki innemu graczowi 
+/dzialka zastepca <nick> - nadanie/zdjęcie roli ‘zastepcy’ na dzialce - max 2 zastepców per działka
+/dzialka usun - usuwasz swoją działkę ((GUI z potwierdzeniem)
+/dzialka zapros <nick> - zaproszenie gracza do dzialki
+/dzialka wyrzuc <nick> - wyrzucenie gracza z dzialki
+/dzialka opusc - opuszczenie działki
+/dzialka wykop <nick> - wyrzucenie gracza z terenu działki
+/dzialka zablokuj <nick> - zablokowania gracza na terenie działki (nie może wejść na jej teren)
+/dzialka odblokuj <nick> - odblokowanie gracza
+/dzialka ustawdom - ustawia dom działki na kordy, na których stoisz.
+/dzialka dom <nazwa> - teleport na dom działki (wyświetla listę Twoich działek do tabowania)
+/dzialka zaproszenia - lista zaproszeń do działek
+/dzialka lista - lista Twoich działek lub do których masz dostep (Nazwa działki, kordy, Twoja rola na dzialce) + LPM teleport na dzialke
+/dzialka pvp - włączenie/wyłączenie pvp na działce (Dostęp tylko dla administracji MOD/SMOD+  na jakieś eventy)
+
+### Uprawnienia w panelu działki pozwalają na kontrolowanie:
+GUI panelu działek
+Gdy stoisz na działce otwiera ustawienia danej działki, w innym wypadku
+ najpierw otwiera GUI z listą działek do wyboru
+
+Permisje działki (w srodku “GUI permisji”)
+-Lista członków (lista członkow, nicki, role) - limit osób na działce ustawiany jako permisja w rangach
+-Lista zablokowanych graczy (lista osób zablokowanych - nick + data blokady)
+-Ukrywanie bloku działki (Kliknij aby ukryć/pokazać blok działki) - zabezpieczyć też, aby nie dało się przesuwać bloku pistonem, wybuchać itd
+-Zmień nazwę działki (otwiera tabliczkę w której możesz wpisać nową nazwę) - raz na 24h na działce
+-Zmień ikonę działki (otwiera GUI w którym musisz wsadzić item, aby zmienić na daną ikonkę)
+-Widoczność granic działki (wykonuje komende /dzialka granica)
+-Informacje o działce (nazwa, wlasciciel, zastepcy, kordy, rozmiar, data stworzenia, data wygasniecia, liczba czlonkow / max czlonkow)
+-Kup działkę (wykonuje komende /dzialka kup)
+-Opłać działkę (Koszt x $, kliknij aby oplacic + arg. z aktualnym czasem do wygasniecia)
+-Usuń działkę - Dodać do itemu zapisywanie czasu, na który działka była przedłużona
+
+
+
+ss menu zarzadzania dzialka
+opis uprawnien
 
 ### Przydatne dodatkowe komendy:
-• **/spawn** - teleportuje gracza na bezpieczny spawn
-• **/pomoc** - zbiór przydatnych informacji o trybie
-• **/dom** - otwiera menu domów, możesz tam ustawić, usunąć oraz zmienić nazwę domu
-• **/kosz** - przenośny śmietnik
-• **/tpa <nick>** - wysłanie prośby o teleportacje do innego gracza
-• **/gamma** - włączenie widzenia w ciemności
-• **/wb** - przenośny crafting, dostępna dla rang VIP+
-• **/repair** - naprawa przedmiotu, dostępna dla rang SVIP+
-• **/ec** - przenośny enderchest, dostępna dla rang MVIP+
+bla bla bla
 
 ![RTP](/assets/survival-dzialki/rtp.png)
 
-## Działka i jej zarządzanie
-Zacznijmy od tego, że działkę może założyć każdy kto ma 500$ na swoim koncie pamiętając o tym że gracz ma do dyspozycji kilka działek w zależności od posiadanej rangi.
-
-**GRACZ** posiada 2 działki, oraz możliwość ustawienia maksymalnie 3 domów
-**VIP** posiada 3 działki, oraz możliwość ustawienia do 4 domów
-**SVIP** posiada 4 działki i 6 domów
-**MVIP** posiada 6 działek i aż 9 domów
-Nie ważne jaką masz rangę, wymiar Twojej działki do 50x50 kratek!
-
-
-• **/dzialka list** - wyświetla listę wszystkich posiadanych działek
-• **/dzialka zaloz <nazwa_działki>** - tworzy działkę
-• **/dzialka usun <nazwa_działki>** - usuwa wybraną działkę
-• **/dzialka panel** - dostęp do zarządzania uprawnieniami użytkowników
-• **/dzialka pvp** - włącza i wyłącza możliwość bicia innych graczy na działce
-• **/dzialka zapros <nick> <nazwa_działki>** - dodaje gracza do działki
-• **/dzialka wyrzuc <nick> <nazwa_działki>** - wyrzuca gracza z działki
-• **/dzialka dolacz <nazwa_działki>** - dołącza do działki
-• **/dzialka opusc <nazwa_działki>** - opuszcza działkę
-• **/dzialka wlasciciel <nick> <nazwa_działki>** - zmienia właściciela działki
-
-### Uprawnienia w panelu działki pozwalają na kontrolowanie:
-• Niszczenia bloków
-• Stawiania bloków
-• Wyrzucania członków
-• Zarządzania trybem PvP
-• Interakcji z wiadrem
-
-![Panel](/assets/survival-dzialki/panel.png)
 
 ## Handel i Ekonomia
 Rynek na serwerze rządzi się swoimi prawami -  to gracze ustalają ceny przedmiotów i to od nich w dużej mierze zależy jak wygląda rynek!
 Serwer umożliwia handel na kilka sposobów: wewnętrzny sklep, market, wymiany bezpośrednie między graczami i przelewanie sobie pieniędzy.
+
+INFO O PODATKU DAĆ
 
 • **/market gui** - otwiera menu serwerowego rynku
 • **/market wystaw <cena>** - wystaw przedmiot na rynek za określoną cenę na okres 24h (UWAGA! Wystawisz wszystkie przedmioty które masz aktualnie w ręce)
@@ -72,9 +88,11 @@ A i jeszcze jedno! Jeśli masz znajomego w potrzebie przelej mu trochę pienięd
 
 ![market](/assets/survival-dzialki/market.png)
 
+## Małzeństwa wśród graczy
+bla bla bla
+
 ## Rangi i Skrzynie
-Dwie działki to za mało? A może potrzebujesz lepszych itemów na start? Rangi premium posiadają więcej ułatwień niż serwer sam w sobie!
-Rangę zakupić możesz na naszej stronie - [SKLEP KOKSCRAFT](https://kokscraft.pl/sklep/rangi/sv-1-20_1)
+ [SKLEP KOKSCRAFT](https://kokscraft.pl/sklep/rangi/sv-1-20_1)
 
 Każda ranga posiada inne dodatkowe przywileje, sprawdzisz je komendą /rangi.
 Tak samo z ich zestawami - /kit, prawym przyciskiem myszy podejrzysz zawartość *każdego* zestawu!
@@ -96,19 +114,13 @@ Tak samo z ich zestawami - /kit, prawym przyciskiem myszy podejrzysz zawartość
 |   ![kox-chest](/assets/survival-dzialki/kox-chest.png)   |
 
 
-## Topki <!-- SUNSHINE -->
+## Topki <
 Na serwerze obowiązuje zacięta rywalizacja, najlepsze osoby otrzymują nagrody na nową edycję!
-Podczas gry możecie rywalizować między sobą w aż 6 kategoriach!
+Podczas gry możecie rywalizować między sobą w aż ....... kategoriach!
 
 ![Topki](/assets/survival-dzialki/top-list.png)
 
-TOP:
-• Wykopanych bloków
-• Ilości zabójstw
-• Punktów eventowych
-• Zabitych mobów
-• Spędzonego czasu na trybie
-• Ilości coinsów
+rozpisac topki
 
 #### **To co? Umówieni na wspólne wbijanie topek?**
 
@@ -118,17 +130,10 @@ Aby zapewnić graczom dodatkową rozrywkę oraz wprowadzić troszkę więcej ryw
 Event rozpocznie się jeśli na serwerze będzie łącznie **30 graczy**.
 W wydarzeniach opłaca się brać regularny udział, ponieważ pierwsze trzy osoby na koniec zostaną nagrodzone!
 
-### **Jakie mamy eventy?**
+wypisac eventy
 
-- KOP BLOKI
-- STAWIAJ BLOKI
-- ZABIJAJ MOBY
-- PRZEBIEGNIJ DYSTANS
+wypisac nagrody
 
-### A jakie są nagrody?
-1 miejsce - 2 koks klucze
-2 miejsce - 3 magiczne klucze
-3 miejsce - 1 magiczny klucz 
 
 
 ## Spawn
@@ -145,3 +150,4 @@ Mimo, że spawn oferuje bezpieczne do odetchnięcia miejsce - to poza nim gracze
 LINIA PVP!
 ![pvp](/assets/survival-dzialki/pvp.png)
 
+<!-->
